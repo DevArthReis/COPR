@@ -1,0 +1,55 @@
+.login {
+    width: 98.vw;
+
+    height: 95vh;
+    background-image: url("https://static.wixstatic.com/media/11062b_2f27877c2f1e4b38bdca250415b6cdbe~mv2.jpg/v1/fill/w_1343,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_2f27877c2f1e4b38bdca250415b6cdbe~mv2.jpg");
+    display: flex;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;  
+
+}
+.estoy {
+    width: 25%;
+        padding: 20px;
+        background-color: white;
+    }
+    h1{
+        font-size: 24px;
+            font-weight: 300;
+    }
+    .loko{
+        display: flex;
+            flex-direction: column;
+            
+    }
+    
+    input {
+        flex: 1;
+        min-width: 40%;
+        margin: 10px 0px;
+        padding: 10px;
+        border: 1px solid;
+    }
+    .link2 {
+        margin: 5px 0px;
+        font-size: 12px;
+        text-decoration: underline;
+        cursor: pointer;
+        color: inherit;
+        text-decoration: none;
+
+    }
+    .button-container{
+        display: flex;
+    }
+    button {
+        margin-right: 5px;
+        border: none;
+        padding: 15px 20px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        margin-bottom: 8px;
+    }
+    

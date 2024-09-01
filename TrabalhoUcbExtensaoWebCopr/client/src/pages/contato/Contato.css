@@ -1,0 +1,163 @@
+.contato {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    padding: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardo {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    min-height: 500px;
+    overflow: hidden;
+}
+
+.cardo .img {
+    flex: 1;
+    background-image: url("https://static.wixstatic.com/media/11062b_8db3849226dd445f879e48faee8af616~mv2.jpg/v1/fill/w_490,h_600,fp_0.46_0.55,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_8db3849226dd445f879e48faee8af616~mv2.jpg");
+    background-size: cover;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+
+
+}
+
+.cardo .vasco {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(to right, #0a9cab, #7ed957);
+}
+
+.cardo .vasco h1 {
+    text-align: center;
+    color: #285a5b;
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+.cardo .vasco form {
+    padding: 40px 110px 70px 110px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.cardo .vasco .form-group {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 calc(50% - 15px);
+}
+
+.cardo .vasco .form-group textarea {
+    display: flex;
+    font-size: 20px;
+    color: #285a5b;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid black;
+    padding: 8px;
+
+
+}
+
+::placeholder {
+    font-size: 15px;
+}
+
+
+
+.cardo .vasco .form-group label {
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #285a5b;
+    font-weight: 300;
+}
+
+.cardo .vasco .form-group input,
+.cardo.vasco {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 8px;
+    border: 0.1px solid #ccc;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+
+
+}
+
+.cardo .vasco button {
+    flex: 1 1 100%;
+    background-color: #4f7170;
+    color: white;
+    border: none;
+    padding: 20px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+.cardo .vasco button:hover {
+    background-color: #75c1ca;
+    ;
+}
+
+.cardo .vasco .form-group input:focus,
+.cardo .vasco .form-group input:hover {
+    outline: none;
+    background-color: rgba(227, 226, 226, 0.5);
+    border-bottom: 1.5px solid black;
+    border-right: 2px solid transparent;
+}
+
+.help {
+    text-align: center;
+
+}
+
+.help p {
+    font-size: 17px;
+    color: #285A5B;
+    gap: 40px;
+
+}
+
+.help h1 {
+    font-size: 32px;
+    color: #285a5b;
+    font-weight: 500;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+#linha-vertical {
+    border-left: 1px solid #285A5B;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin-left: 25%;
+    margin-bottom: 70px;
+    padding: 10px;
+    height: 50px;
+
+
+}
+
+.imagenzinha {
+    background-image: url("https://pcdob.org.br/wp-content/uploads/2020/10/pandemia-nos-EUA-rual-imagem.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    image-rendering: optimizeQuality;
+    filter: brightness(1.1) contrast(1.1);
+    margin-bottom: 20px;
+
+}

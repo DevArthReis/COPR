@@ -1,0 +1,201 @@
+.sobre-nos-atualizado {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    padding: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-atualizado {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    min-height: 500px;
+    overflow: hidden;
+}
+
+.esquerda-atualizado {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #dbdad0;
+    color: #285a5b;
+    text-align: center;
+    
+    
+}
+
+.esquerda-atualizado h1 {
+    padding: 30px 0;
+    font-size: 46px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+}
+
+.esquerda-atualizado p {
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    padding: 50px;
+    font-weight: 380;
+}
+
+.direita-atualizado {
+    flex: 1;
+    background: url("https://static.wixstatic.com/media/11062b_77687e0111dc4a42aed071d3d25ffcb5~mv2.jpg/v1/fill/w_588,h_894,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_77687e0111dc4a42aed071d3d25ffcb5~mv2.jpg") center center no-repeat;
+    padding: 70px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
+    color: white;
+    border-right: 5px solid white;
+}
+
+.direita-atualizado form {
+    padding: 40px 110px 70px 110px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.direita-atualizado .form-group-atualizado {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 calc(50% - 15px);
+}
+
+.direita-atualizado .form-group-atualizado label {
+    margin-bottom: 5px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.525);
+    font-weight: 300;
+}
+
+.direita-atualizado .form-group-atualizado input:focus,
+.direita-atualizado .form-group-atualizado input:hover {
+    outline: none;
+    background-color: rgba(227, 226, 226, 0.5);
+    border-bottom: 1.5px solid black;
+    border-right: 2px solid transparent;
+}
+.caixa-dois .pintinho{
+    background-image: url('./../../img/pgSobre/img1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+
+    
+    
+}
+.text-pinto h2{
+    color: #285a5b;
+    
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+.text-pinto p{
+    text-align: center;
+    font-size: 15px;
+   margin-bottom: 10px;
+    color: #285a5b;
+}
+.text-pinto li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #285a5b;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    font-size: 15px;
+    
+    
+    
+}
+
+.sobre-nos-novo {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    padding: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cartao-novo {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    min-height: 500px;
+    overflow: hidden;
+}
+
+.lado-esquerdo-novo {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #dbdad0;
+    color: #285a5b;
+    text-align: center;
+}
+
+.lado-esquerdo-novo h1 {
+    padding: 20px 0;
+    font-size: 30px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+}
+
+.lado-esquerdo-novo p {
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    padding: 9px;
+    font-weight: 380;
+}
+
+.lado-direito-novo {
+    flex: 1;
+    background: url("https://img.freepik.com/premium-photo/green-forest-view-from-top_250994-2159.jpg?w=740") center center no-repeat;
+    padding: 70px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
+    color: white;
+    border-right: 5px solid white;
+}
+
+.lado-direito-novo form {
+    padding: 40px 110px 70px 110px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.lado-direito-novo .form-grupo-novo {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 calc(50% - 15px);
+}
+
+.lado-direito-novo .form-grupo-novo label {
+    margin-bottom: 5px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.525);
+    font-weight: 300;
+}
+
+.lado-direito-novo .form-grupo-novo input:focus,
+.lado-direito-novo .form-grupo-novo input:hover {
+    outline: none;
+    background-color: rgba(227, 226, 226, 0.5);
+    border-bottom: 1.5px solid black;
+    border-right: 2px solid transparent;
+}
+
+

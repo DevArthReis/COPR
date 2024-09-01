@@ -1,0 +1,90 @@
+.navbar {
+  align-items: center;
+  background: linear-gradient(to right, #0a9cab, #7ed957);
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 233px;
+  height: 99px;
+  object-fit: cover; 
+}
+
+
+.list {
+  list-style: none;
+  display: flex;
+  gap: 7rem;
+}
+
+.item {
+  color: white;
+}
+
+.item a {
+  color: #08507ac7;
+  text-decoration: none;
+}
+
+.item a:hover {
+  color: #0a0a0a;
+  text-decoration: none;
+}
+
+.pessoaLink {
+  display: flex; 
+  align-items: center; 
+  margin-left: 40px; 
+}
+.pessoaImg {
+  width: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+
+}
+
+.profile-menu {
+  position: relative;
+
+}
+
+.loggedin-menu {
+  position: relative;
+ 
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  right: 0;
+  border-radius: 5px;
+  
+}
+
+.loggedin-menu:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a, .dropdown-content button {
+  color: black;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content a:hover, .dropdown-content button:hover {
+  background-color: #ddd;
+}
